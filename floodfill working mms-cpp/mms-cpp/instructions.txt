@@ -1,0 +1,22 @@
+
+
+How to build
+
+open developertools
+cd mms-cpp folder
+cl.exe /Zi /EHsc /Fe: main.exe API.cpp Main.cpp
+
+
+
+
+
+
+How to debug
+
+run the app
+pause
+
+add breakpoint 
+f5
+choose main.exe
+resume app
