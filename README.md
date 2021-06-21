@@ -147,7 +147,7 @@ The flow chart below explains the sequential process:
 <img src="Documentation/FloodFillFlowChart.jpg" alt="Flowchart to micromouse Floodfill strategy"/> <br/>
 
 ### Video Demo for Iteration 3
-<iframe width="560" height="315" src="https://www.youtube.com/embed/shkjjvti3Rk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Youtube Demo: https://www.youtube.com/embed/shkjjvti3Rk
 
 ----------
 
@@ -161,8 +161,7 @@ So therefore, even after mving back to the staert, the maze is not completely ex
 Yellow Path:All Cells that have been explored on the Route From From Start To Goal  
 Blue Path: All Cells that have been explored on the Route From From Goal Back to Start  
 We can notice that the maze is not completely explored
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kLZDHPHGYtk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
-
+Youtube Demo: https://www.youtube.com/embed/kLZDHPHGYtk
 ----------
 
 ## Iteration5: Implementation of BFS, Dijkstra, and Astar on Partially Explored Maze
@@ -171,7 +170,7 @@ Path finding algorithms implemented: BFS, Dijkstra, A_star Both Dijkstra and Ast
 BFS will fail and crash because it doesnt use cost function so it will entered an unexplored area and may drive into a wall because the initial assumpltion was that unexplored areas have no walls.  
 Further, as seen in the video, the flood fill is yet not robust enought to solve more complex mazes as it is crashing.  
 Ps. Note: Astar shows more turns (as much as double that of dijkstras), this is because of the minor error the turn counter is not being reset.  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DM-XMnEnmLg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Youtube Demo: https://www.youtube.com/embed/DM-XMnEnmLg
 ----------
 
 ## Iteration6:  
@@ -181,16 +180,15 @@ B] Pathfinding Using Dijkstra and AStar
 In this phase the floodFill is more robust (with extra edge case detection) as it is able to solve maze 5 which was previously failing. Previously
 
 The video Demonstrates both part A and B combined
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TMBu4YHYtAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+Youtube Demo: https://www.youtube.com/embed/TMBu4YHYtAU
+-----
 The console output for the last Maze in the video can be found in the same subfolder as this document  
 Name of File:
 
 ----------
 
 ## Iteration7: MicroMouse on Webots
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cRtKqav3Ajw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+Youtube Demo: https://www.youtube.com/embed/cRtKqav3Ajw
 ----------
 
 ## Iteration8: Memory Optimzation for quicker path planning and
@@ -208,7 +206,8 @@ Yellow Cells: All Cells that have been explored on the Route From Start To Goal
 green Cells: Nodes (vertex/edge) where decision is made  
 
 ## ************Video Demo for Iteration 8*************** [Must Watch]
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fRmBV_nr-6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Youtube Demo: https://www.youtube.com/embed/fRmBV_nr-6c
+-----
 The Console Output is stored in the file named:  **Iteration8ConsoleOutput.txt**
 
 Between Iteration 7 and Iteration 8 we can see the optimization in terms of the green coloured cells.  
@@ -224,13 +223,7 @@ Algorithm Used: Recursive Backtracking for Maze Generation
 
 ## ************Video Demo for Iteration 9************ [Must Watch]
 
-<!-- blank line -->
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
-    <source src="Documentation/Iteration9.mp4" type="video/mp4">
-  </video>
-</figure>
-<!-- blank line -->
+Youtube Demo: https://www.youtube.com/watch?v=Qn5RMj1CaW0
 ----------
 
 ## Limitations
