@@ -223,10 +223,11 @@ Iteration8: Decision of next move is being taken atedges and vertices only (henc
 Algorithm Used: Recursive Backtracking for Maze Generation
 
 ## ************Video Demo for Iteration 9************ [Must Watch]
+
 <!-- blank line -->
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/Qn5RMj1CaW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </figure>
+  <iframe src="https://www.youtube.com/embed/Qn5RMj1CaW0" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 <!-- blank line -->
 ----------
 
