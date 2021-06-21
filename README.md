@@ -226,7 +226,9 @@ Algorithm Used: Recursive Backtracking for Maze Generation
 
 <!-- blank line -->
 <figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/Qn5RMj1CaW0" frameborder="0" allowfullscreen="true"> </iframe>
+  <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
+    <source src="Documentation/Iteration9.mp4" type="video/mp4">
+  </video>
 </figure>
 <!-- blank line -->
 ----------
