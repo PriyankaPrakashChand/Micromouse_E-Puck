@@ -1,0 +1,1246 @@
+make -j 4
+# updating micromouse1.d
+# compiling micromouse1.cpp
+In file included from micromouse1.cpp:27:
+Utility/Maze.h: In member function 'void Maze::setMaze(IMazeReader&)':
+Utility/Maze.h:156:27: warning: comparison of integer expressions of different signedness: 'int' and 'size_t' {aka 'long long unsigned int'} [-Wsign-compare]
+  156 |   for (int line = 0; line < getRow(); ++line)
+      |                      ~~~~~^~~~~~~~~~
+Utility/Maze.h:161:30: warning: comparison of integer expressions of different signedness: 'int' and 'size_t' {aka 'long long unsigned int'} [-Wsign-compare]
+  161 |    for (int index = 0; index < getColumn(); ++index)
+      |                        ~~~~~~^~~~~~~~~~~~~
+In file included from micromouse1.cpp:27:
+Utility/Maze.h:241:21: warning: comparison of integer expressions of different signedness: 'int' and 'size_t' {aka 'long long unsigned int'} [-Wsign-compare]
+  241 |   for (int i = 0; i < getColumn(); ++i)
+      |                   ~~^~~~~~~~~~~~~
+# linking micromouse1.exe
+Build finished.
+INFO: micromouse1: Starting controller: C:\Users\pinkb\OneDrive\Documents\Fall20\IAR\Maze-Robot-EPuck\controllers\micromouse1\micromouse1.exe
+Start Time = Mon Dec 14 03:15:41 2020
+Resetting to Start
+Reset done 
+Iniitalizing maze
+The current date/time is: Mon Dec 14 03:15:41 2020
+Starting flood fill
+Exploring cell 
+0 0- FacingN
+wall Ahead= false
+wall left= true
+wall Right= false
+Moving forward: 4.87805
+At Cell [0 1]
+Exploring cell 
+0 1- FacingN
+wall Ahead= true
+wall left= true
+wall Right= false
+Moving forward: 4.87805
+At Cell [1 1]
+Exploring cell 
+1 1- FacingE
+wall Ahead= false
+wall left= true
+wall Right= true
+Moving forward: 4.87805
+At Cell [2 1]
+Exploring cell 
+2 1- FacingE
+wall Ahead= false
+wall left= true
+wall Right= true
+Moving forward: 4.87805
+At Cell [3 1]
+Exploring cell 
+3 1- FacingE
+wall Ahead= true
+wall left= false
+wall Right= true
+Moving forward: 4.87805
+At Cell [3 2]
+Exploring cell 
+3 2- FacingN
+wall Ahead= true
+wall left= false
+wall Right= false
+Moving forward: 4.87805
+At Cell [2 2]
+Exploring cell 
+2 2- FacingW
+wall Ahead= false
+wall left= true
+wall Right= true
+Moving forward: 4.87805
+At Cell [1 2]
+Exploring cell 
+1 2- FacingW
+wall Ahead= false
+wall left= true
+wall Right= true
+Moving forward: 4.87805
+At Cell [0 2]
+Exploring cell 
+0 2- FacingW
+wall Ahead= true
+wall left= true
+wall Right= false
+Moving forward: 4.87805
+At Cell [0 3]
+Exploring cell 
+0 3- FacingN
+wall Ahead= true
+wall left= true
+wall Right= false
+Moving forward: 4.87805
+At Cell [1 3]
+Exploring cell 
+1 3- FacingE
+wall Ahead= false
+wall left= false
+wall Right= true
+Moving forward: 4.87805
+At Cell [2 3]
+Exploring cell 
+2 3- FacingE
+wall Ahead= false
+wall left= false
+wall Right= true
+Moving forward: 4.87805
+At Cell [3 3]
+Exploring cell 
+3 3- FacingE
+wall Ahead= false
+wall left= true
+wall Right= true
+Moving to Goal Location: [0 4]
+Moving forward: 4.87805
+At Cell [2 3]
+Moving forward: 4.87805
+At Cell [1 3]
+Moving forward: 4.87805
+At Cell [0 3]
+Moving forward: 4.87805
+At Cell [0 2]
+Moving forward: 4.87805
+At Cell [0 3]
+Moving forward: 4.87805
+At Cell [1 3]
+Moving forward: 4.87805
+At Cell [1 4]
+Exploring cell 
+1 4- FacingN
+wall Ahead= false
+wall left= false
+wall Right= true
+Moving forward: 4.87805
+At Cell [0 4]
+Exploring cell 
+0 4- FacingW
+wall Ahead= true
+wall left= true
+wall Right= false
+Moving to Goal Location: [0 5]
+Moving forward: 4.87805
+At Cell [0 5]
+Exploring cell 
+0 5- FacingN
+wall Ahead= false
+wall left= true
+wall Right= true
+Moving to Goal Location: [0 6]
+Moving forward: 4.87805
+At Cell [0 6]
+Exploring cell 
+0 6- FacingN
+wall Ahead= false
+wall left= true
+wall Right= true
+Moving to Goal Location: [0 7]
+Moving forward: 4.87805
+At Cell [0 7]
+Exploring cell 
+0 7- FacingN
+wall Ahead= true
+wall left= true
+wall Right= true
+Moving to Goal Location: [1 0]
+Moving forward: 4.87805
+At Cell [0 6]
+Moving forward: 4.87805
+At Cell [0 5]
+Moving forward: 4.87805
+At Cell [0 4]
+Moving forward: 4.87805
+At Cell [1 4]
+Moving forward: 4.87805
+At Cell [1 3]
+Moving forward: 4.87805
+At Cell [2 3]
+Moving forward: 4.87805
+At Cell [2 4]
+Exploring cell 
+2 4- FacingN
+wall Ahead= false
+wall left= true
+wall Right= false
+Moving forward: 4.87805
+At Cell [2 5]
+Exploring cell 
+2 5- FacingN
+wall Ahead= false
+wall left= true
+wall Right= true
+Moving forward: 4.87805
+At Cell [2 4]
+Moving forward: 4.87805
+At Cell [2 3]
+Moving forward: 4.87805
+At Cell [1 3]
+Moving forward: 4.87805
+At Cell [0 3]
+Moving forward: 4.87805
+At Cell [0 2]
+Moving forward: 4.87805
+At Cell [1 2]
+Moving forward: 4.87805
+At Cell [2 2]
+Moving forward: 4.87805
+At Cell [3 2]
+Moving forward: 4.87805
+At Cell [3 1]
+Moving forward: 4.87805
+At Cell [2 1]
+Moving forward: 4.87805
+At Cell [1 1]
+Moving forward: 4.87805
+At Cell [0 1]
+Moving forward: 4.87805
+At Cell [0 0]
+Moving forward: 4.87805
+At Cell [1 0]
+Exploring cell 
+1 0- FacingE
+wall Ahead= false
+wall left= true
+wall Right= true
+Moving to Goal Location: [1 5]
+Moving forward: 4.87805
+At Cell [2 0]
+Exploring cell 
+2 0- FacingE
+wall Ahead= true
+wall left= true
+wall Right= true
+Moving forward: 4.87805
+At Cell [1 0]
+Moving forward: 4.87805
+At Cell [0 0]
+Moving forward: 4.87805
+At Cell [0 1]
+Moving forward: 4.87805
+At Cell [1 1]
+Moving forward: 4.87805
+At Cell [2 1]
+Moving forward: 4.87805
+At Cell [3 1]
+Moving forward: 4.87805
+At Cell [3 2]
+Moving forward: 4.87805
+At Cell [2 2]
+Moving forward: 4.87805
+At Cell [1 2]
+Moving forward: 4.87805
+At Cell [0 2]
+Moving forward: 4.87805
+At Cell [0 3]
+Moving forward: 4.87805
+At Cell [1 3]
+Moving forward: 4.87805
+At Cell [1 4]
+Moving forward: 4.87805
+At Cell [1 5]
+Exploring cell 
+1 5- FacingN
+wall Ahead= false
+wall left= true
+wall Right= true
+Moving to Goal Location: [1 6]
+Moving forward: 4.87805
+At Cell [1 6]
+Exploring cell 
+1 6- FacingN
+wall Ahead= false
+wall left= true
+wall Right= false
+Moving to Goal Location: [1 7]
+Moving forward: 4.87805
+At Cell [1 7]
+Exploring cell 
+1 7- FacingN
+wall Ahead= true
+wall left= true
+wall Right= true
+Moving to Goal Location: [2 6]
+Moving forward: 4.87805
+At Cell [1 6]
+Moving forward: 4.87805
+At Cell [2 6]
+Exploring cell 
+2 6- FacingE
+wall Ahead= true
+wall left= false
+wall Right= false
+Moving to Goal Location: [2 7]
+Moving forward: 4.87805
+At Cell [2 7]
+Exploring cell 
+2 7- FacingN
+wall Ahead= true
+wall left= true
+wall Right= true
+Moving to Goal Location: [3 0]
+Moving forward: 4.87805
+At Cell [2 6]
+Moving forward: 4.87805
+At Cell [2 5]
+Moving forward: 4.87805
+At Cell [2 4]
+Moving forward: 4.87805
+At Cell [2 3]
+Moving forward: 4.87805
+At Cell [3 3]
+Moving forward: 4.87805
+At Cell [4 3]
+Exploring cell 
+4 3- FacingE
+wall Ahead= false
+wall left= true
+wall Right= true
+Moving forward: 4.87805
+At Cell [5 3]
+Exploring cell 
+5 3- FacingE
+wall Ahead= false
+wall left= true
+wall Right= true
+Moving forward: 4.87805
+At Cell [6 3]
+Exploring cell 
+6 3- FacingE
+wall Ahead= true
+wall left= false
+wall Right= true
+Moving forward: 4.87805
+At Cell [6 4]
+Exploring cell 
+6 4- FacingN
+wall Ahead= true
+wall left= false
+wall Right= false
+Moving forward: 4.87805
+At Cell [5 4]
+Exploring cell 
+5 4- FacingW
+wall Ahead= true
+wall left= true
+wall Right= false
+Moving forward: 4.87805
+At Cell [5 5]
+Exploring cell 
+5 5- FacingN
+wall Ahead= false
+wall left= false
+wall Right= true
+Moving forward: 4.87805
+At Cell [4 5]
+Exploring cell 
+4 5- FacingW
+wall Ahead= true
+wall left= false
+wall Right= false
+Moving forward: 4.87805
+At Cell [4 4]
+Exploring cell 
+4 4- FacingS
+wall Ahead= true
+wall left= true
+wall Right= true
+Moving forward: 4.87805
+At Cell [4 5]
+Moving forward: 4.87805
+At Cell [4 6]
+Exploring cell 
+4 6- FacingN
+wall Ahead= false
+wall left= true
+wall Right= true
+Moving forward: 4.87805
+At Cell [4 7]
+Exploring cell 
+4 7- FacingN
+wall Ahead= true
+wall left= false
+wall Right= true
+Moving forward: 4.87805
+At Cell [3 7]
+Exploring cell 
+3 7- FacingW
+wall Ahead= true
+wall left= false
+wall Right= true
+Moving forward: 4.87805
+At Cell [3 6]
+Exploring cell 
+3 6- FacingS
+wall Ahead= false
+wall left= true
+wall Right= true
+Moving forward: 4.87805
+At Cell [3 5]
+Exploring cell 
+3 5- FacingS
+wall Ahead= false
+wall left= true
+wall Right= true
+Moving forward: 4.87805
+At Cell [3 4]
+Exploring cell 
+3 4- FacingS
+wall Ahead= true
+wall left= true
+wall Right= false
+Moving forward: 4.87805
+At Cell [2 4]
+Moving forward: 4.87805
+At Cell [2 3]
+Moving forward: 4.87805
+At Cell [1 3]
+Moving forward: 4.87805
+At Cell [0 3]
+Moving forward: 4.87805
+At Cell [0 2]
+Moving forward: 4.87805
+At Cell [1 2]
+Moving forward: 4.87805
+At Cell [2 2]
+Moving forward: 4.87805
+At Cell [3 2]
+Moving forward: 4.87805
+At Cell [3 1]
+Moving forward: 4.87805
+At Cell [2 1]
+Moving forward: 4.87805
+At Cell [1 1]
+Moving forward: 4.87805
+At Cell [0 1]
+Moving forward: 4.87805
+At Cell [0 0]
+Moving forward: 4.87805
+At Cell [1 0]
+Moving forward: 4.87805
+At Cell [2 0]
+Moving forward: 4.87805
+At Cell [1 0]
+Moving forward: 4.87805
+At Cell [0 0]
+Moving forward: 4.87805
+At Cell [0 1]
+Moving forward: 4.87805
+At Cell [1 1]
+Moving forward: 4.87805
+At Cell [2 1]
+Moving forward: 4.87805
+At Cell [3 1]
+Moving forward: 4.87805
+At Cell [3 2]
+Moving forward: 4.87805
+At Cell [4 2]
+Exploring cell 
+4 2- FacingE
+wall Ahead= false
+wall left= true
+wall Right= false
+Moving forward: 4.87805
+At Cell [4 1]
+Exploring cell 
+4 1- FacingS
+wall Ahead= true
+wall left= false
+wall Right= true
+Moving forward: 4.87805
+At Cell [5 1]
+Exploring cell 
+5 1- FacingE
+wall Ahead= false
+wall left= true
+wall Right= true
+Moving forward: 4.87805
+At Cell [6 1]
+Exploring cell 
+6 1- FacingE
+wall Ahead= true
+wall left= true
+wall Right= false
+Moving forward: 4.87805
+At Cell [6 0]
+Exploring cell 
+6 0- FacingS
+wall Ahead= true
+wall left= false
+wall Right= false
+Moving forward: 4.87805
+At Cell [5 0]
+Exploring cell 
+5 0- FacingW
+wall Ahead= false
+wall left= true
+wall Right= true
+Moving forward: 4.87805
+At Cell [4 0]
+Exploring cell 
+4 0- FacingW
+wall Ahead= false
+wall left= true
+wall Right= true
+Moving forward: 4.87805
+At Cell [3 0]
+Exploring cell 
+3 0- FacingW
+wall Ahead= true
+wall left= true
+wall Right= true
+Moving to Goal Location: [5 2]
+Moving forward: 4.87805
+At Cell [4 0]
+Moving forward: 4.87805
+At Cell [5 0]
+Moving forward: 4.87805
+At Cell [6 0]
+Moving forward: 4.87805
+At Cell [6 1]
+Moving forward: 4.87805
+At Cell [5 1]
+Moving forward: 4.87805
+At Cell [4 1]
+Moving forward: 4.87805
+At Cell [4 2]
+Moving forward: 4.87805
+At Cell [5 2]
+Exploring cell 
+5 2- FacingE
+wall Ahead= false
+wall left= true
+wall Right= true
+Moving to Goal Location: [5 6]
+Moving forward: 4.87805
+At Cell [6 2]
+Exploring cell 
+6 2- FacingE
+wall Ahead= true
+wall left= true
+wall Right= true
+Moving forward: 4.87805
+At Cell [5 2]
+Moving forward: 4.87805
+At Cell [4 2]
+Moving forward: 4.87805
+At Cell [4 1]
+Moving forward: 4.87805
+At Cell [5 1]
+Moving forward: 4.87805
+At Cell [6 1]
+Moving forward: 4.87805
+At Cell [6 0]
+Moving forward: 4.87805
+At Cell [5 0]
+Moving forward: 4.87805
+At Cell [4 0]
+Moving forward: 4.87805
+At Cell [5 0]
+Moving forward: 4.87805
+At Cell [6 0]
+Moving forward: 4.87805
+At Cell [7 0]
+Exploring cell 
+7 0- FacingE
+wall Ahead= true
+wall left= false
+wall Right= false
+Moving forward: 4.87805
+At Cell [7 1]
+Exploring cell 
+7 1- FacingN
+wall Ahead= false
+wall left= true
+wall Right= true
+Moving forward: 4.87805
+At Cell [7 2]
+Exploring cell 
+7 2- FacingN
+wall Ahead= true
+wall left= true
+wall Right= true
+Moving forward: 4.87805
+At Cell [7 1]
+Moving forward: 4.87805
+At Cell [7 0]
+Moving forward: 4.87805
+At Cell [6 0]
+Moving forward: 4.87805
+At Cell [6 1]
+Moving forward: 4.87805
+At Cell [5 1]
+Moving forward: 4.87805
+At Cell [4 1]
+Moving forward: 4.87805
+At Cell [4 2]
+Moving forward: 4.87805
+At Cell [3 2]
+Moving forward: 4.87805
+At Cell [2 2]
+Moving forward: 4.87805
+At Cell [1 2]
+Moving forward: 4.87805
+At Cell [0 2]
+Moving forward: 4.87805
+At Cell [0 3]
+Moving forward: 4.87805
+At Cell [1 3]
+Moving forward: 4.87805
+At Cell [2 3]
+Moving forward: 4.87805
+At Cell [3 3]
+Moving forward: 4.87805
+At Cell [4 3]
+Moving forward: 4.87805
+At Cell [5 3]
+Moving forward: 4.87805
+At Cell [6 3]
+Moving forward: 4.87805
+At Cell [6 4]
+Moving forward: 4.87805
+At Cell [5 4]
+Moving forward: 4.87805
+At Cell [5 5]
+Moving forward: 4.87805
+At Cell [5 6]
+Exploring cell 
+5 6- FacingN
+wall Ahead= false
+wall left= true
+wall Right= true
+Moving to Goal Location: [5 7]
+Moving forward: 4.87805
+At Cell [5 7]
+Exploring cell 
+5 7- FacingN
+wall Ahead= true
+wall left= true
+wall Right= true
+Moving to Goal Location: [6 5]
+Moving forward: 4.87805
+At Cell [5 6]
+Moving forward: 4.87805
+At Cell [5 5]
+Moving forward: 4.87805
+At Cell [5 4]
+Moving forward: 4.87805
+INFO: Video recording starts when you run a simulation...
+At Cell [6 4]
+Moving forward: 4.87805
+At Cell [7 4]
+Exploring cell 
+7 4- FacingE
+wall Ahead= true
+wall left= false
+wall Right= false
+Moving forward: 4.87805
+At Cell [7 5]
+Exploring cell 
+7 5- FacingN
+wall Ahead= false
+wall left= true
+wall Right= true
+Moving forward: 4.87805
+At Cell [7 6]
+Exploring cell 
+7 6- FacingN
+wall Ahead= true
+wall left= false
+wall Right= true
+Moving forward: 4.87805
+At Cell [6 6]
+Exploring cell 
+6 6- FacingW
+wall Ahead= true
+wall left= false
+wall Right= false
+Moving forward: 4.87805
+At Cell [6 5]
+Exploring cell 
+6 5- FacingS
+wall Ahead= true
+wall left= true
+wall Right= true
+Moving to Goal Location: [6 7]
+Moving forward: 4.87805
+At Cell [6 6]
+Moving forward: 4.87805
+At Cell [6 7]
+Exploring cell 
+6 7- FacingN
+wall Ahead= true
+wall left= true
+wall Right= false
+Moving to Goal Location: [7 3]
+Moving forward: 4.87805
+At Cell [7 7]
+Exploring cell 
+7 7- FacingE
+wall Ahead= true
+wall left= true
+wall Right= true
+Moving forward: 4.87805
+At Cell [6 7]
+Moving forward: 4.87805
+At Cell [6 6]
+Moving forward: 4.87805
+At Cell [6 5]
+Moving forward: 4.87805
+At Cell [6 6]
+Moving forward: 4.87805
+At Cell [7 6]
+Moving forward: 4.87805
+At Cell [7 5]
+Moving forward: 4.87805
+At Cell [7 4]
+Moving forward: 4.87805
+End Time = Mon Dec 14 03:19:55 2020
+Complete maze has been explored
+Converting to Graph
+printing  Graph
+Graph stored as adjacency list(7,6)-> (7,5) (6,6) 
+(7,5)-> (7,6) (7,4) 
+(7,4)-> (7,5) (7,3) (6,4) 
+(7,3)-> (7,4) 
+(3,3)-> (2,3) (4,3) 
+(6,6)-> (6,7) (6,5) (7,6) 
+(3,2)-> (3,1) (2,2) (4,2) 
+(3,1)-> (3,2) (2,1) 
+(2,6)-> (2,7) (2,5) (1,6) 
+(2,4)-> (2,5) (2,3) (3,4) 
+(5,6)-> (5,7) (5,5) 
+(2,3)-> (2,4) (1,3) (3,3) 
+(2,2)-> (1,2) (3,2) 
+(6,5)-> (6,6) 
+(2,1)-> (1,1) (3,1) 
+(1,7)-> (1,6) 
+(2,0)-> (1,0) 
+(1,6)-> (1,7) (1,5) (2,6) 
+(2,7)-> (2,6) 
+(3,0)-> (4,0) 
+(1,5)-> (1,6) (1,4) 
+(0,0)-> (0,1) (1,0) 
+(1,4)-> (1,5) (1,3) (0,4) 
+(4,7)-> (4,6) (3,7) 
+(7,7)-> (6,7) 
+(0,1)-> (0,0) (1,1) 
+(0,2)-> (0,3) (1,2) 
+(1,3)-> (1,4) (0,3) (2,3) 
+(2,5)-> (2,6) (2,4) 
+(0,3)-> (0,2) (1,3) 
+(4,6)-> (4,7) (4,5) 
+(0,4)-> (0,5) (1,4) 
+(0,5)-> (0,6) (0,4) 
+(3,7)-> (3,6) (4,7) 
+(0,6)-> (0,7) (0,5) 
+(0,7)-> (0,6) 
+(3,4)-> (3,5) (2,4) 
+(1,2)-> (0,2) (2,2) 
+(5,5)-> (5,6) (5,4) (4,5) 
+(1,0)-> (0,0) (2,0) 
+(1,1)-> (0,1) (2,1) 
+(3,5)-> (3,6) (3,4) 
+(3,6)-> (3,7) (3,5) 
+(4,0)-> (3,0) (5,0) 
+(4,1)-> (4,2) (5,1) 
+(4,2)-> (4,1) (3,2) (5,2) 
+(4,3)-> (3,3) (5,3) 
+(4,4)-> (4,5) 
+(4,5)-> (4,6) (4,4) (5,5) 
+(5,0)-> (4,0) (6,0) 
+(5,1)-> (4,1) (6,1) 
+(5,2)-> (4,2) (6,2) 
+(5,3)-> (4,3) (6,3) 
+(5,4)-> (5,5) (6,4) 
+(5,7)-> (5,6) 
+(6,0)-> (6,1) (5,0) (7,0) 
+(6,1)-> (6,0) (5,1) 
+(6,2)-> (5,2) 
+(6,3)-> (6,4) (5,3) 
+(6,4)-> (6,3) (5,4) (7,4) 
+(6,7)-> (6,6) (7,7) 
+(7,0)-> (7,1) (6,0) 
+(7,1)-> (7,2) (7,0) 
+(7,2)-> (7,1) 
+Test 0
+Test Goal:0 ,6
+A* Search on graph with infinitely high heuristic value for unexplored cells
+a_star path planning:
+Start Time = Mon Dec 14 03:19:55 2020
+FollowPath:
+Start Time= Mon Dec 14 03:19:55 2020
+y= 0x= 0
+y= 1x= 0
+At Cell [7 3]
+Exploring cell 
+7 3- FacingS
+wall Ahead= true
+wall left= true
+wall Right= true
+The current date/time is: Mon Dec 14 03:19:55 2020
+The current date/time is: Mon Dec 14 03:19:55 2020
+Path calculated 
+(0 7) 
+(0 6) 
+(3 6) 
+(3 5) 
+(0 5) 
+(0 4) 
+(1 4) 
+(1 3) 
+(0 3) 
+(0 1) 
+The current date/time is: Mon Dec 14 03:19:55 2020
+Moving forward: 4.87805
+y= 1x= 3
+Moving forward: 4.87805
+Moving forward: 4.87805
+Moving forward: 4.87805
+y= 2x= 3
+Moving forward: 4.87805
+y= 2x= 0
+Moving forward: 4.87805
+Moving forward: 4.87805
+Moving forward: 4.87805
+y= 3x= 0
+Moving forward: 4.87805
+y= 3x= 1
+Moving forward: 4.87805
+y= 4x= 1
+Moving forward: 4.87805
+y= 4x= 0
+Moving forward: 4.87805
+y= 6x= 0
+Moving forward: 4.87805
+Moving forward: 4.87805
+End Time= Mon Dec 14 03:20:16 2020
+Number of turns taken: 8
+End Time = Mon Dec 14 03:20:16 2020
+Test 1
+Test Goal:1 ,3
+A* Search on graph with infinitely high heuristic value for unexplored cells
+a_star path planning:
+Start Time = Mon Dec 14 03:20:16 2020
+FollowPath:
+Start Time= Mon Dec 14 03:20:16 2020
+y= 0x= 0
+y= 1x= 0
+The current date/time is: Mon Dec 14 03:20:16 2020
+The current date/time is: Mon Dec 14 03:20:16 2020
+The current date/time is: Mon Dec 14 03:20:16 2020
+Path calculated 
+(0 7) 
+(0 6) 
+(3 6) 
+(3 5) 
+(0 5) 
+(0 4) 
+(1 4) 
+The current date/time is: Mon Dec 14 03:20:16 2020
+Moving forward: 4.87805
+y= 1x= 3
+Moving forward: 4.87805
+Moving forward: 4.87805
+Moving forward: 4.87805
+y= 2x= 3
+Moving forward: 4.87805
+y= 2x= 0
+Moving forward: 4.87805
+Moving forward: 4.87805
+Moving forward: 4.87805
+y= 3x= 0
+Moving forward: 4.87805
+y= 3x= 1
+Moving forward: 4.87805
+End Time= Mon Dec 14 03:20:33 2020
+Number of turns taken: 5
+End Time = Mon Dec 14 03:20:33 2020
+Test 2
+Test Goal:7 ,0
+A* Search on graph with infinitely high heuristic value for unexplored cells
+a_star path planning:
+Start Time = Mon Dec 14 03:20:33 2020
+FollowPath:
+Start Time= Mon Dec 14 03:20:33 2020
+y= 0x= 0
+y= 1x= 0
+The current date/time is: Mon Dec 14 03:20:33 2020
+The current date/time is: Mon Dec 14 03:20:33 2020
+The current date/time is: Mon Dec 14 03:20:33 2020
+Path calculated 
+(0 7) 
+(0 6) 
+(3 6) 
+(3 5) 
+(4 5) 
+(4 6) 
+(6 6) 
+(6 7) 
+(7 7) 
+The current date/time is: Mon Dec 14 03:20:33 2020
+Moving forward: 4.87805
+y= 1x= 3
+Moving forward: 4.87805
+Moving forward: 4.87805
+Moving forward: 4.87805
+y= 2x= 3
+Moving forward: 4.87805
+y= 2x= 4
+Moving forward: 4.87805
+y= 1x= 4
+Moving forward: 4.87805
+y= 1x= 6
+Moving forward: 4.87805
+Moving forward: 4.87805
+y= 0x= 6
+Moving forward: 4.87805
+y= 0x= 7
+Moving forward: 4.87805
+End Time= Mon Dec 14 03:20:51 2020
+Number of turns taken: 7
+End Time = Mon Dec 14 03:20:51 2020
+Test 3
+Test Goal:6 ,2
+A* Search on graph with infinitely high heuristic value for unexplored cells
+a_star path planning:
+Start Time = Mon Dec 14 03:20:51 2020
+FollowPath:
+Start Time= Mon Dec 14 03:20:51 2020
+y= 0x= 0
+y= 1x= 0
+The current date/time is: Mon Dec 14 03:20:51 2020
+The current date/time is: Mon Dec 14 03:20:51 2020
+The current date/time is: Mon Dec 14 03:20:51 2020
+Path calculated 
+(0 7) 
+(0 6) 
+(3 6) 
+(3 5) 
+(4 5) 
+(6 5) 
+The current date/time is: Mon Dec 14 03:20:51 2020
+Moving forward: 4.87805
+y= 1x= 3
+Moving forward: 4.87805
+Moving forward: 4.87805
+Moving forward: 4.87805
+y= 2x= 3
+Moving forward: 4.87805
+y= 2x= 4
+Moving forward: 4.87805
+y= 2x= 6
+Moving forward: 4.87805
+Moving forward: 4.87805
+End Time= Mon Dec 14 03:21:04 2020
+Number of turns taken: 3
+End Time = Mon Dec 14 03:21:04 2020
+Test 4
+Test Goal:2 ,4
+A* Search on graph with infinitely high heuristic value for unexplored cells
+a_star path planning:
+Start Time = Mon Dec 14 03:21:04 2020
+FollowPath:
+Start Time= Mon Dec 14 03:21:04 2020
+y= 0x= 0
+y= 1x= 0
+The current date/time is: Mon Dec 14 03:21:04 2020
+The current date/time is: Mon Dec 14 03:21:04 2020
+The current date/time is: Mon Dec 14 03:21:04 2020
+Path calculated 
+(0 7) 
+(0 6) 
+(3 6) 
+(3 5) 
+(0 5) 
+(0 4) 
+(1 4) 
+(2 4) 
+(2 3) 
+The current date/time is: Mon Dec 14 03:21:04 2020
+Moving forward: 4.87805
+y= 1x= 3
+Moving forward: 4.87805
+Moving forward: 4.87805
+Moving forward: 4.87805
+y= 2x= 3
+Moving forward: 4.87805
+y= 2x= 0
+Moving forward: 4.87805
+Moving forward: 4.87805
+Moving forward: 4.87805
+y= 3x= 0
+Moving forward: 4.87805
+y= 3x= 1
+Moving forward: 4.87805
+y= 3x= 2
+Moving forward: 4.87805
+y= 4x= 2
+Moving forward: 4.87805
+End Time= Mon Dec 14 03:21:24 2020
+Number of turns taken: 6
+End Time = Mon Dec 14 03:21:24 2020
+Test 5
+Test Goal:1 ,0
+A* Search on graph with infinitely high heuristic value for unexplored cells
+a_star path planning:
+Start Time = Mon Dec 14 03:21:24 2020
+FollowPath:
+Start Time= Mon Dec 14 03:21:24 2020
+y= 0x= 0
+y= 0x= 1
+The current date/time is: Mon Dec 14 03:21:24 2020
+The current date/time is: Mon Dec 14 03:21:24 2020
+The current date/time is: Mon Dec 14 03:21:24 2020
+Path calculated 
+(0 7) 
+(1 7) 
+The current date/time is: Mon Dec 14 03:21:24 2020
+Moving forward: 4.87805
+End Time= Mon Dec 14 03:21:26 2020
+Number of turns taken: 1
+End Time = Mon Dec 14 03:21:26 2020
+Test 6
+Test Goal:6 ,7
+A* Search on graph with infinitely high heuristic value for unexplored cells
+a_star path planning:
+Start Time = Mon Dec 14 03:21:26 2020
+FollowPath:
+Start Time= Mon Dec 14 03:21:26 2020
+y= 0x= 0
+y= 1x= 0
+The current date/time is: Mon Dec 14 03:21:26 2020
+The current date/time is: Mon Dec 14 03:21:26 2020
+The current date/time is: Mon Dec 14 03:21:26 2020
+Path calculated 
+(0 7) 
+(0 6) 
+(3 6) 
+(3 5) 
+(0 5) 
+(0 4) 
+(1 4) 
+(2 4) 
+(6 4) 
+(6 3) 
+(7 3) 
+(7 1) 
+(6 1) 
+(6 0) 
+The current date/time is: Mon Dec 14 03:21:26 2020
+Moving forward: 4.87805
+y= 1x= 3
+Moving forward: 4.87805
+Moving forward: 4.87805
+Moving forward: 4.87805
+y= 2x= 3
+Moving forward: 4.87805
+y= 2x= 0
+Moving forward: 4.87805
+Moving forward: 4.87805
+Moving forward: 4.87805
+y= 3x= 0
+Moving forward: 4.87805
+y= 3x= 1
+Moving forward: 4.87805
+y= 3x= 2
+Moving forward: 4.87805
+y= 3x= 6
+Moving forward: 4.87805
+Moving forward: 4.87805
+Moving forward: 4.87805
+Moving forward: 4.87805
+y= 4x= 6
+Moving forward: 4.87805
+y= 4x= 7
+Moving forward: 4.87805
+y= 6x= 7
+Moving forward: 4.87805
+Moving forward: 4.87805
+y= 6x= 6
+Moving forward: 4.87805
+y= 7x= 6
+Moving forward: 4.87805
+End Time= Mon Dec 14 03:21:59 2020
+Number of turns taken: 10
+End Time = Mon Dec 14 03:21:59 2020
+Test 7
+Test Goal:7 ,3
+A* Search on graph with infinitely high heuristic value for unexplored cells
+a_star path planning:
+Start Time = Mon Dec 14 03:21:59 2020
+FollowPath:
+Start Time= Mon Dec 14 03:21:59 2020
+y= 0x= 0
+y= 1x= 0
+The current date/time is: Mon Dec 14 03:21:59 2020
+The current date/time is: Mon Dec 14 03:21:59 2020
+The current date/time is: Mon Dec 14 03:21:59 2020
+Path calculated 
+(0 7) 
+(0 6) 
+(3 6) 
+(3 5) 
+(0 5) 
+(0 4) 
+(1 4) 
+(2 4) 
+(6 4) 
+(6 3) 
+(7 3) 
+(7 4) 
+The current date/time is: Mon Dec 14 03:21:59 2020
+Moving forward: 4.87805
+y= 1x= 3
+Moving forward: 4.87805
+Moving forward: 4.87805
+Moving forward: 4.87805
+y= 2x= 3
+Moving forward: 4.87805
+y= 2x= 0
+Moving forward: 4.87805
+Moving forward: 4.87805
+Moving forward: 4.87805
+y= 3x= 0
+Moving forward: 4.87805
+y= 3x= 1
+Moving forward: 4.87805
+y= 3x= 2
+Moving forward: 4.87805
+y= 3x= 6
+Moving forward: 4.87805
+Moving forward: 4.87805
+Moving forward: 4.87805
+Moving forward: 4.87805
+y= 4x= 6
+Moving forward: 4.87805
+y= 4x= 7
+Moving forward: 4.87805
+y= 3x= 7
+Moving forward: 4.87805
+End Time= Mon Dec 14 03:22:32 2020
+Number of turns taken: 8
+End Time = Mon Dec 14 03:22:32 2020
+Test 8
+Test Goal:0 ,7
+A* Search on graph with infinitely high heuristic value for unexplored cells
+a_star path planning:
+Start Time = Mon Dec 14 03:22:32 2020
+FollowPath:
+Start Time= Mon Dec 14 03:22:32 2020
+y= 0x= 0
+y= 1x= 0
+The current date/time is: Mon Dec 14 03:22:32 2020
+The current date/time is: Mon Dec 14 03:22:32 2020
+The current date/time is: Mon Dec 14 03:22:32 2020
+Path calculated 
+(0 7) 
+(0 6) 
+(3 6) 
+(3 5) 
+(0 5) 
+(0 4) 
+(1 4) 
+(1 3) 
+(0 3) 
+(0 0) 
+The current date/time is: Mon Dec 14 03:22:32 2020
+Moving forward: 4.87805
+y= 1x= 3
+Moving forward: 4.87805
+Moving forward: 4.87805
+Moving forward: 4.87805
+y= 2x= 3
+Moving forward: 4.87805
+y= 2x= 0
+Moving forward: 4.87805
+Moving forward: 4.87805
+Moving forward: 4.87805
+y= 3x= 0
+Moving forward: 4.87805
+y= 3x= 1
+Moving forward: 4.87805
+y= 4x= 1
+Moving forward: 4.87805
+y= 4x= 0
+Moving forward: 4.87805
+y= 7x= 0
+Moving forward: 4.87805
+Moving forward: 4.87805
+Moving forward: 4.87805
+End Time= Mon Dec 14 03:22:59 2020
+Number of turns taken: 8
+End Time = Mon Dec 14 03:22:59 2020
+Test 9
+Test Goal:3 ,0
+A* Search on graph with infinitely high heuristic value for unexplored cells
+a_star path planning:
+Start Time = Mon Dec 14 03:22:59 2020
+FollowPath:
+Start Time= Mon Dec 14 03:22:59 2020
+y= 0x= 0
+y= 1x= 0
+The current date/time is: Mon Dec 14 03:22:59 2020
+The current date/time is: Mon Dec 14 03:22:59 2020
+The current date/time is: Mon Dec 14 03:22:59 2020
+Path calculated 
+(0 7) 
+(0 6) 
+(3 6) 
+(3 5) 
+(4 5) 
+(4 6) 
+(6 6) 
+(6 7) 
+(3 7) 
+The current date/time is: Mon Dec 14 03:22:59 2020
+Moving forward: 4.87805
+y= 1x= 3
+Moving forward: 4.87805
+Moving forward: 4.87805
+Moving forward: 4.87805
+y= 2x= 3
+Moving forward: 4.87805
+y= 2x= 4
+Moving forward: 4.87805
+y= 1x= 4
+Moving forward: 4.87805
+y= 1x= 6
+Moving forward: 4.87805
+Moving forward: 4.87805
+y= 0x= 6
+Moving forward: 4.87805
+y= 0x= 3
+Moving forward: 4.87805
+Moving forward: 4.87805
+Moving forward: 4.87805
+End Time= Mon Dec 14 03:23:25 2020
+Number of turns taken: 7
+End Time = Mon Dec 14 03:23:25 2020
+The current date/time is: Mon Dec 14 03:23:25 2020
+The current date/time is: Mon Dec 14 03:23:25 2020
+INFO: 'micromouse1' controller exited successfully.
+INFO: Creating video...
+Recording at 25 FPS, 20250000 bit/s.
+Video encoding stage 1... (please wait)
+Video encoding stage 2... (please wait)
+INFO: Video creation finished.

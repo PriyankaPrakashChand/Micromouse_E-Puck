@@ -1,0 +1,286 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 1 0 0 4.71238898038469
+  position -8.965802426403792e-16 4.226406885331159 6.264705707652386e-16
+  follow "floor"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  size 0.81 0.81
+  tileSize 0.2 0.2
+}
+DEF WALL_P Solid {
+  translation -0.1 0 0.36
+  children [
+    DEF WALL_1t Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.8 0.8
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.01 0.2 0.1
+      }
+    }
+  ]
+  name "solid(14)"
+  boundingObject USE WALL_1t
+}
+DEF JEREMY E-puck {
+  translation -0.36 0 0.35
+  controller "micromouse1"
+  supervisor TRUE
+}
+DEF WALL_1 Solid {
+  translation 0.405 0.05 0
+  children [
+    DEF WALL_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.8 0.8
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.02 0.1 0.81
+      }
+    }
+  ]
+  name "solid(1)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_2 Solid {
+  translation -0.415 0.05 0
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(2)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_3 Solid {
+  translation 0 0.05 -0.404
+  rotation 0 1 0 1.5708
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(9)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_4 Solid {
+  translation 0 0.05 0.415
+  rotation 0 1 0 1.5708
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(3)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_A Solid {
+  translation 0.245 0 -0.1
+  rotation 0 1 0 1.57
+  children [
+    USE WALL_1t
+  ]
+  name "solid(10)"
+  boundingObject USE WALL_1t
+}
+DEF WALL_S Solid {
+  translation 0.295 0 -0.145
+  children [
+    USE WALL_1t
+  ]
+  name "solid(23)"
+  boundingObject USE WALL_1t
+}
+DEF WALL_B Solid {
+  translation -0.2 0 -0.348
+  children [
+    USE WALL_1t
+  ]
+  name "solid(5)"
+  boundingObject USE WALL_1t
+}
+DEF WALL_T Solid {
+  translation 0.095 0 -0.05
+  children [
+    USE WALL_1t
+  ]
+  name "solid(24)"
+  boundingObject USE WALL_1t
+}
+DEF WALL_C Solid {
+  translation 0.045 0 0.1
+  rotation 0 1 0 1.5708
+  children [
+    DEF HORIZANTAL_WALL_1 Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.8 0.8
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.01 0.2 0.7
+      }
+    }
+  ]
+  name "solid(6)"
+  boundingObject USE HORIZANTAL_WALL_1
+}
+DEF WALL_D Solid {
+  translation 0.198 0 -0.244
+  children [
+    DEF HORIZANTAL_WALL_2 Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.8 0.8
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.01 0.2 0.295
+      }
+    }
+  ]
+  name "solid(7)"
+  boundingObject USE HORIZANTAL_WALL_2
+}
+DEF WALL_E Solid {
+  translation 0.197 0 0.205
+  rotation 0 1 0 1.5708
+  children [
+    DEF HORIZANTAL_WALL_2 Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.8 0.8
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.01 0.2 0.21
+      }
+    }
+  ]
+  name "solid(8)"
+  boundingObject USE HORIZANTAL_WALL_2
+}
+DEF WALL_F Solid {
+  translation 0.345 0 -0.296
+  rotation 0 1 0 1.57
+  children [
+    USE WALL_1t
+  ]
+  name "solid(11)"
+  boundingObject USE WALL_1t
+}
+DEF WALL_G Solid {
+  translation -0.255 0 0.207
+  rotation 0 1 0 1.57
+  children [
+    DEF WALL_3t Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.8 0.8
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.01 0.2 0.3
+      }
+    }
+  ]
+  name "solid(17)"
+  boundingObject USE WALL_3t
+}
+DEF WALL_H Solid {
+  translation 0.044 0 0.006
+  rotation 0 1 0 1.57
+  children [
+    USE WALL_3t
+  ]
+  name "solid(19)"
+  boundingObject USE WALL_3t
+}
+DEF WALL_Q Solid {
+  translation -0.1 0 -0.245
+  children [
+    USE WALL_3t
+  ]
+  name "solid(4)"
+  boundingObject USE WALL_3t
+}
+DEF WALL_R Solid {
+  translation 0 0 -0.15
+  children [
+    USE WALL_3t
+  ]
+  name "solid(22)"
+  boundingObject USE WALL_3t
+}
+DEF WALL_I Solid {
+  translation 0.095 0 -0.3
+  children [
+    USE HORIZANTAL_WALL_2
+  ]
+  name "solid(12)"
+  boundingObject USE HORIZANTAL_WALL_2
+}
+DEF WALL_J Solid {
+  translation -0.2 0 -0.09
+  children [
+    USE HORIZANTAL_WALL_2
+  ]
+  name "solid(13)"
+  boundingObject USE HORIZANTAL_WALL_2
+}
+DEF WALL_K Solid {
+  translation -0.005 0 0.255
+  children [
+    USE WALL_1t
+  ]
+  name "solid(15)"
+  boundingObject USE WALL_1t
+}
+DEF WALL_L Solid {
+  translation -0.355 0 -1.73472e-18
+  rotation 0 1 0 1.57
+  children [
+    USE WALL_1t
+  ]
+  name "solid(16)"
+  boundingObject USE WALL_1t
+}
+DEF WALL_M Solid {
+  translation -0.055 0 0.305
+  rotation 0 1 0 1.57
+  children [
+    DEF WALL_4t Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.01 0.2 0.5
+      }
+    }
+  ]
+  name "solid(18)"
+  boundingObject USE WALL_4t
+}
+DEF WALL_N Solid {
+  translation 0.295 0 0.155
+  children [
+    USE WALL_3t
+  ]
+  name "solid(20)"
+  boundingObject USE WALL_3t
+}
+DEF WALL_O Solid {
+  translation -0.31 0 -0.25
+  children [
+    USE WALL_3t
+  ]
+  name "solid(21)"
+  boundingObject USE WALL_3t
+}
