@@ -144,7 +144,7 @@ Everytime the robot moves to a cell, it checks if the floodfill cost allocated t
 Everytime the robot visits a new cell (previously unexplored), it will sense for neighbouring walls and will update the maze map in memory.  
 The flow chart below explains the sequential process:
 
-![](FloodFillFlowChart.jpg)
+<img src="documentation/FloodFillFlowChart.jpg" alt="Flowchart to micromouse Floodfill strategy"/> <br/>
 
 ### Video Demo for Iteration 3
 <iframe width="560" height="315" src="https://www.youtube.com/embed/shkjjvti3Rk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -200,7 +200,8 @@ The Maze is now being mapped more efficiently as it is only storing vertices and
 As a result, less memory utilized. It is also quicker to move as the robot does need to deliberate for the next move at each step.  
 Rather this happends at ever edge or vertex.  
 Vertex and edge areclearly pointed out in the image below  
-![](OptimizedMaze.PNG)  
+
+<img src="documentation/OptimizedMaze.PNG" alt="Flowchart to micromouse Floodfill strategy"/> <br/>
 This can be seen in the video below:
 
 Yellow Cells: All Cells that have been explored on the Route From Start To Goal  
