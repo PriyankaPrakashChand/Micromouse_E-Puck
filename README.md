@@ -222,6 +222,12 @@ Algorithm Used: Recursive Backtracking for Maze Generation
 ## ************Video Demo for Iteration 9************ [Must Watch]
 
 Youtube Demo: https://www.youtube.com/watch?v=Qn5RMj1CaW0
+
+<div align="left">
+      <a href="https://www.youtube.com/watch?v=Qn5RMj1CaW0">
+         <img src="https://img.youtube.com/vi/5yLzZikS15k/0.jpg" style="width:100%;">
+      </a>
+</div>
 ***
 
 ## Limitations
