@@ -231,8 +231,9 @@ green Cells: Nodes (vertex/edge) where decision is made
          <img src="https://img.youtube.com/vi/fRmBV_nr-6c/0.jpg" style="width:100%;">
       </a>
 </div>
------
-The Console Output is stored in the file named:  **Iteration8ConsoleOutput.txt**
+
+
+The Console Output is stored in the file named:  Documentation>Iteration8ConsoleOutput.txt
 
 Between Iteration 7 and Iteration 8 we can see the optimization in terms of the green coloured cells.  
 Iteration7: Decision of next move was taken at each cell (hence continuous path as shown in the video in section7)  
