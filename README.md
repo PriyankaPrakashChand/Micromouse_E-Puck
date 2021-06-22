@@ -164,6 +164,7 @@ So therefore, even after mving back to the start, the maze is not completely exp
 Yellow Path:All Cells that have been explored on the Route From From Start To Goal  
 Blue Path: All Cells that have been explored on the Route From From Goal Back to Start  
 We can notice that the maze is not completely explored
+### Video Demo for Iteration 4
 <div align="left">
       <a href="https://www.youtube.com/watch?v=kLZDHPHGYtk">
          <img src="https://img.youtube.com/vi/kLZDHPHGYtk/0.jpg" style="width:100%;">
@@ -177,6 +178,7 @@ Path finding algorithms implemented: BFS, Dijkstra, A_star Both Dijkstra and Ast
 BFS will fail and crash because it doesnt use cost function so it will entered an unexplored area and may drive into a wall because the initial assumpltion was that unexplored areas have no walls.  
 Further, as seen in the video, the flood fill is yet not robust enought to solve more complex mazes as it is crashing.  
 Ps. Note: Astar shows more turns (as much as double that of dijkstras), this is because of the minor error the turn counter is not being reset.  
+### Video Demo for Iteration 5
 <div align="left">
       <a href="https://www.youtube.com/watch?v=DM-XMnEnmLg">
          <img src="https://img.youtube.com/vi/DM-XMnEnmLg/0.jpg" style="width:100%;">
@@ -191,6 +193,7 @@ B] Pathfinding Using Dijkstra and AStar
 In this phase the floodFill is more robust (with extra edge case detection) as it is able to solve maze 5 which was previously failing. Previously
 
 The video Demonstrates both part A and B combined
+### Video Demo for Iteration 6
 <div align="left">
       <a href="https://www.youtube.com/watch?v=TMBu4YHYtAU">
          <img src="https://img.youtube.com/vi/TMBu4YHYtAU/0.jpg" style="width:100%;">
@@ -199,6 +202,7 @@ The video Demonstrates both part A and B combined
 ***
 
 ## Iteration7: MicroMouse on Webots
+### Video Demo for Iteration 7
 <div align="left">
       <a href="https://www.youtube.com/watch?v=cRtKqav3Ajw">
          <img src="https://img.youtube.com/vi/cRtKqav3Ajw/0.jpg" style="width:100%;">
@@ -240,12 +244,12 @@ Iteration8: Decision of next move is being taken atedges and vertices only (henc
 Algorithm Used: Recursive Backtracking for Maze Generation
 
 ## ************Video Demo for Iteration 9************ [Must Watch]
-
 <div align="left">
       <a href="https://www.youtube.com/watch?v=Qn5RMj1CaW0">
          <img src="https://img.youtube.com/vi/Qn5RMj1CaW0/0.jpg" style="width:100%;">
       </a>
 </div>
+
 ***
 
 ## Limitations
