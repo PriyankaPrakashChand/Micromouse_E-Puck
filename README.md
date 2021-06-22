@@ -199,7 +199,7 @@ As a result, less memory utilized. It is also quicker to move as the robot does 
 Rather this happends at ever edge or vertex.  
 Vertex and edge areclearly pointed out in the image below  
 
-<img src="Documentation/OptimizedMaze.PNG" alt="Flowchart to micromouse Floodfill strategy"/> <br/>
+<img src="Documentation/OptimizedMaze.PNG" alt="Flowchart to micromouse Floodfill strategy" width="500" height="auto"/> <br/>
 This can be seen in the video below:
 
 Yellow Cells: All Cells that have been explored on the Route From Start To Goal  
