@@ -143,7 +143,7 @@ Everytime the robot moves to a cell, it checks if the floodfill cost allocated t
 Everytime the robot visits a new cell (previously unexplored), it will sense for neighbouring walls and will update the maze map in memory.  
 The flow chart below explains the sequential process:
 
-<img src="Documentation/FloodFillFlowChart.jpg" alt="Flowchart to micromouse Floodfill strategy" width="2000" height="auto"/> <br/>
+<img src="Documentation/FloodFillFlowChart.jpg" alt="Flowchart to micromouse Floodfill strategy" width="1000" height="auto"/> <br/>
 
 ### Video Demo for Iteration 3
 Youtube Demo: https://www.youtube.com/embed/shkjjvti3Rk
