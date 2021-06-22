@@ -7,7 +7,7 @@
 ***
 ## Project Description:
 
-Our course project is inspired by the MicroMouse Competition. In our project we will solve a 16×16 maze.  
+This project is inspired by the MicroMouse Competition in which we will solve a 16×16 maze.  
 The robot is first allowed to explore the maze to locate the shortest path from the entrance to the center of the maze. After the robot is finished mapping the maze, it travels back to the entrance as quickly as it can.  
 It then makes sequent run to using the shortest path to the center of the maze.  
 In our project we will focus on different strategies to map the maze and finding the shortest path.
