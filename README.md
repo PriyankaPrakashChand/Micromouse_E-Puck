@@ -146,7 +146,11 @@ The flow chart below explains the sequential process:
 <img src="Documentation/FloodFillFlowChart.jpg" alt="Flowchart to micromouse Floodfill strategy" width="500" height="auto"/> <br/>
 
 ### Video Demo for Iteration 3
-Youtube Demo: https://www.youtube.com/embed/shkjjvti3Rk
+<div align="left">
+      <a href="https://www.youtube.com/watch?v=shkjjvti3Rk">
+         <img src="https://img.youtube.com/vi/shkjjvti3Rk/0.jpg" style="width:100%;">
+      </a>
+</div>
 
 ----------
 
@@ -160,9 +164,11 @@ So therefore, even after mving back to the start, the maze is not completely exp
 Yellow Path:All Cells that have been explored on the Route From From Start To Goal  
 Blue Path: All Cells that have been explored on the Route From From Goal Back to Start  
 We can notice that the maze is not completely explored
-
-
-Youtube Demo: https://www.youtube.com/embed/kLZDHPHGYtk
+<div align="left">
+      <a href="https://www.youtube.com/watch?v=kLZDHPHGYtk">
+         <img src="https://img.youtube.com/vi/kLZDHPHGYtk/0.jpg" style="width:100%;">
+      </a>
+</div>
 ***
 
 ## Iteration5: Implementation of BFS, Dijkstra, and Astar on Partially Explored Maze
@@ -171,7 +177,11 @@ Path finding algorithms implemented: BFS, Dijkstra, A_star Both Dijkstra and Ast
 BFS will fail and crash because it doesnt use cost function so it will entered an unexplored area and may drive into a wall because the initial assumpltion was that unexplored areas have no walls.  
 Further, as seen in the video, the flood fill is yet not robust enought to solve more complex mazes as it is crashing.  
 Ps. Note: Astar shows more turns (as much as double that of dijkstras), this is because of the minor error the turn counter is not being reset.  
-Youtube Demo: https://www.youtube.com/embed/DM-XMnEnmLg
+<div align="left">
+      <a href="https://www.youtube.com/watch?v=DM-XMnEnmLg">
+         <img src="https://img.youtube.com/vi/DM-XMnEnmLg/0.jpg" style="width:100%;">
+      </a>
+</div>
 ***
 
 ## Iteration6:  
@@ -181,14 +191,19 @@ B] Pathfinding Using Dijkstra and AStar
 In this phase the floodFill is more robust (with extra edge case detection) as it is able to solve maze 5 which was previously failing. Previously
 
 The video Demonstrates both part A and B combined
-Youtube Demo: https://www.youtube.com/embed/TMBu4YHYtAU
-***
-The console output for the last Maze in the video can be found in the same subfolder as this document  
-Name of File:
+<div align="left">
+      <a href="https://www.youtube.com/watch?v=TMBu4YHYtAU">
+         <img src="https://img.youtube.com/vi/TMBu4YHYtAU/0.jpg" style="width:100%;">
+      </a>
+</div>
 ***
 
 ## Iteration7: MicroMouse on Webots
-Youtube Demo: https://www.youtube.com/embed/cRtKqav3Ajw
+<div align="left">
+      <a href="https://www.youtube.com/watch?v=cRtKqav3Ajw">
+         <img src="https://img.youtube.com/vi/cRtKqav3Ajw/0.jpg" style="width:100%;">
+      </a>
+</div>
 ***
 
 ## Iteration8: Memory Optimzation for quicker path planning and
@@ -206,7 +221,12 @@ Yellow Cells: All Cells that have been explored on the Route From Start To Goal
 green Cells: Nodes (vertex/edge) where decision is made  
 
 ## ************Video Demo for Iteration 8*************** [Must Watch]
-Youtube Demo: https://www.youtube.com/embed/fRmBV_nr-6c
+
+<div align="left">
+      <a href="https://www.youtube.com/embed/fRmBV_nr-6c">
+         <img src="https://img.youtube.com/vi/fRmBV_nr-6c/0.jpg" style="width:100%;">
+      </a>
+</div>
 -----
 The Console Output is stored in the file named:  **Iteration8ConsoleOutput.txt**
 
@@ -220,8 +240,6 @@ Iteration8: Decision of next move is being taken atedges and vertices only (henc
 Algorithm Used: Recursive Backtracking for Maze Generation
 
 ## ************Video Demo for Iteration 9************ [Must Watch]
-
-Youtube Demo: https://www.youtube.com/watch?v=Qn5RMj1CaW0
 
 <div align="left">
       <a href="https://www.youtube.com/watch?v=Qn5RMj1CaW0">
